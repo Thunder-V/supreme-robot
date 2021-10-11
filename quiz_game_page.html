@@ -9,10 +9,10 @@
 
 <link rel="stylesheet" type="text/css" href="quiz_game.css">
 </head>
-<body style="color: darkolivegreen;">
+<body class="word">
 
-<h4 id="player1_name"></h4><span id="player1_score"></span>
-<h4 id="player2_name"></h4><span id="player2_score"></span>
+<h4 id="player1_name"></h4> <span id="player1_score"></span>
+<h4 id="player2_name"></h4> <span id="player2_score"></span>
 
 <div class="container">
 	<center>
@@ -23,8 +23,11 @@
 		<div id="output" class="col-lg-6"></div>
 		<br>
 		<br>
-		<input type="text" id="send_your_number" class="form-controle" placeholder="Number">
+		<h4>Number 1</h4>
+		<input type="text" id="number1" class="form-control" placeholder="Number 1">
 		<br>
+		<h4>Number 2</h4>
+		<input type="text" id="number2" class="form-control" placeholder="Number 2">
 		<br>
 		<button class="btn btn-success" style="width: 30%;" id="send" onclick="send()">Send</button>
 		<br>
